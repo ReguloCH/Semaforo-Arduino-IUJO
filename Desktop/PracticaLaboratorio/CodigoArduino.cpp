@@ -22,6 +22,7 @@ void setup() {
   }
 }
 
+// - TIEMPO DE ESPERA -
 void loop() {
 
  
