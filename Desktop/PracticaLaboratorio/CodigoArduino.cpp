@@ -21,3 +21,25 @@ void setup() {
     pinMode(pin, OUTPUT);
   }
 }
+void verde(int verdePin, int rojoPin) {
+  digitalWrite(rojoPin, LOW);
+  digitalWrite(verdePin, HIGH);
+}
+
+
+void amarillo(int verdePin, int amarilloPin) {
+  digitalWrite(verdePin, LOW);
+  digitalWrite(amarilloPin, HIGH);
+}
+
+
+void rojo(int rojoPin) {
+  digitalWrite(rojoPin, HIGH);
+}
+
+
+void pasoPeatonal() {
+  encenderPeatonal();
+  delay(3000);
+  apagarPeatonal();
+}
